@@ -1,0 +1,229 @@
+
+
+.menuNav ul {
+    list-style: none;
+}
+.menuNav li {
+    margin: 15px 0;
+}
+.menuNav {
+ 
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 250px;
+    background-color:#fff; /* Светлый фон */
+    padding: 20px;
+}
+
+.menuNav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+}
+
+.menuNav a:hover {
+    color: red;
+}
+
+.menuNav a.active {
+    color: red; /* Цвет активного элемента */
+}
+
+.menuNav a:hover {
+    color: darkorange;
+}
+.productH2{
+    color: red;
+    padding: 20px 0px;
+}
+.products {
+
+    margin-top: 100px;
+    margin-left: 270px;
+    padding: 20px;
+}
+
+
+.mainBox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #cccccc97;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.boxImg {
+
+    width: 200px;
+    height: auto;
+}
+
+.box button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (max-width: 1194px) {
+    .menuNav {
+        width: 100%; /* Make the menu full-width */
+        position: relative; /* Change position to relative */
+        top: 0; /* Reset top */
+    }
+
+    .products {
+        margin-left: 0; /* Reset left margin */
+    }
+
+    .mainBox {
+        flex-direction: column; /* Stack boxes vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .box {
+        width: 90%; /* Make boxes responsive */
+    }
+    .productH2{
+        color: red;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .menuNav {
+        background-color: #f5f5f5; /* Светлый фон для меню */
+        border-radius: 8px; /* Закругленные углы */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+        padding: 10px; /* Отступы вокруг меню */
+        overflow-x: auto; /* Прокрутка для горизонтального меню */
+        margin-top: 250px;
+    }
+    
+    /* Стили для списка */
+    .menuNav ul {
+        list-style: none; /* Убираем стандартные маркеры списка */
+        padding: 0; /* Убираем отступы списка */
+        margin: 0; /* Убираем внешние отступы */
+        display: flex; /* Используем флексбокс для горизонтального расположения */
+        white-space: nowrap; /* Запрещаем перенос строк */
+    }
+    
+    .menuNav li {
+        margin: 0 15px; /* Горизонтальные отступы между элементами */
+    }
+    
+    .menuNav a {
+        text-decoration: none; /* Убираем подчеркивание */
+        color: black; /* Основной цвет текста */
+        font-size: 1.2rem; /* Размер шрифта */
+        transition: color 0.3s ease; /* Плавный переход цвета при наведении */
+    }
+    
+    /* Активный элемент */
+    .menuNav a.active {
+        color: red; /* Цвет для активного элемента */
+        font-weight: bold; /* Жирный шрифт для активации */
+    }
+    
+    /* Наведение на элемент */
+    .menuNav a:hover {
+        color: red; /* Цвет текста при наведении */
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .menuNav {
+        width: 100%; /* Make the menu full-width */
+        position: relative; /* Change position to relative */
+        top: 0; /* Reset top */
+    }
+
+    .products {
+        margin-left: 0; /* Reset left margin */
+    }
+
+    .mainBox {
+        flex-direction: column; /* Stack boxes vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .box {
+        width: 90%; /* Make boxes responsive */
+    }
+    .productH2{
+        color: red;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .menuNav {
+        background-color: #f5f5f5; /* Светлый фон для меню */
+        border-radius: 8px; /* Закругленные углы */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+        padding: 10px; /* Отступы вокруг меню */
+        overflow-x: auto; /* Прокрутка для горизонтального меню */
+        margin-top: 250px;
+    }
+    
+    /* Стили для списка */
+    .menuNav ul {
+        list-style: none; /* Убираем стандартные маркеры списка */
+        padding: 0; /* Убираем отступы списка */
+        margin: 0; /* Убираем внешние отступы */
+        display: flex; /* Используем флексбокс для горизонтального расположения */
+        white-space: nowrap; /* Запрещаем перенос строк */
+    }
+    
+    .menuNav li {
+        margin: 0 15px; /* Горизонтальные отступы между элементами */
+    }
+    
+    .menuNav a {
+        text-decoration: none; /* Убираем подчеркивание */
+        color: black; /* Основной цвет текста */
+        font-size: 1.2rem; /* Размер шрифта */
+        transition: color 0.3s ease; /* Плавный переход цвета при наведении */
+    }
+    
+    /* Активный элемент */
+    .menuNav a.active {
+        color: red; /* Цвет для активного элемента */
+        font-weight: bold; /* Жирный шрифт для активации */
+    }
+    
+    /* Наведение на элемент */
+    .menuNav a:hover {
+        color: red; /* Цвет текста при наведении */
+    }
+}
+
+
+
+
+
+

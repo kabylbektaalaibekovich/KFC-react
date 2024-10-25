@@ -1,0 +1,1009 @@
+#hero {
+    padding: 20px;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+}
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.card {
+    height:auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+  
+
+    
+}
+
+.cardImg1 {
+filter: brightness(60%);
+object-fit: cover;
+width: 100%;
+height: 450px;
+border-radius: 10px;
+
+   }
+   .cardImg2 {
+    filter: brightness(60%);
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+
+    
+       }
+       .cardImg3 {
+        filter: brightness(60%);
+        object-fit: cover;
+        width: 450px;
+        height: 450px;
+        border-radius: 10px;
+
+        
+           }
+
+.cardText1 {
+    position: absolute;
+    left: 120px;
+    bottom: -540px;
+    color: white;
+    font-size:23px;
+}
+
+
+.cardTextP {
+    position: absolute;
+    color: white;
+    font-size:20px;
+    left: 107px;
+    bottom: -600px;
+}
+
+.cardBtn1 {
+    position: absolute;
+    left: 120px;
+    bottom: -700px;
+    background:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardText2 {
+    position: absolute;
+    right:625px ;
+    bottom: -540px;
+    color: white;
+    font-size:23px;
+}
+
+
+.cardTextP2 {
+    position: absolute;
+    color: white;
+    font-size:20px;
+    right: 640px;
+    bottom: -600px;
+}
+
+.cardBtn2 {
+    position: absolute;
+    right: 655px;
+    bottom: -700px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.cardText3 {
+    right: 230px;
+    bottom: -540px;
+    position: absolute;
+    color: white;
+    font-size:23px;
+}
+
+
+.cardTextP3 {
+    position: absolute;
+    color: white;
+    font-size:16px;
+    right:165px;
+    bottom: -600px;
+}
+
+.cardBtn3 {
+    position: absolute;
+    right: 165px;
+    bottom: -700px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.Maingmail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  
+    .gmail{
+  
+        background-color: white; 
+        padding: 20px;
+        border-radius: 10px; 
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+        width: 600px; 
+        height: 280px;
+        text-align: center;
+
+        .gmailBtn{
+
+            bottom: 455px;
+            right: 360px;
+           position:absolute;
+            background: none;
+            color: black;
+            font-size: 20px;
+        }
+    }
+   
+.gmail-input{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+.gmailInput{
+    width: 70%;
+    height: 45px;
+    background: #b1b1b163;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+    .gmailH1{
+        color: black;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+    .siginUp{
+        background: red;
+        width: 40%;
+        height: 10%;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1280px) {
+
+    .card {
+        height:auto;
+        border-radius: 10px;
+        display: flex;
+        justify-content:center;
+        gap: 16px;
+        align-items: center;
+      
+    
+        
+    }
+    
+    .cardImg1 {
+    filter: brightness(60%);
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    
+       }
+       .cardImg2 {
+        filter: brightness(60%);
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+    
+        
+           }
+           .cardImg3 {
+            filter: brightness(60%);
+            object-fit: cover;
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+    
+            
+               }
+    
+    .cardText1 {
+        position: absolute;
+        left: 70px;
+        bottom: -350px;
+        color: white;
+        font-size:23px;
+    }
+    
+    
+    .cardTextP {
+        position: absolute;
+        color: white;
+        font-size:20px;
+        left: 57px;
+        bottom: -405px;
+    }
+    
+    .cardBtn1 {
+        position: absolute;
+        left: 66px;
+        bottom: -520px;
+        background:red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .cardText2 {
+        position: absolute;
+        right: 500px ;
+        bottom: -350px;
+        color: white;
+        font-size:21px;
+    }
+    
+    
+    .cardTextP2 {
+        position: absolute;
+        color: white;
+        font-size:20px;
+        right: 500px;
+        bottom: -410px;
+    }
+    
+    .cardBtn2 {
+        position: absolute;
+        right: 515px;
+        bottom: -520px;
+        background: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    .cardText3 {
+        right: 160px;
+        bottom: -350px;
+        position: absolute;
+        color: white;
+        font-size:23px;
+    }
+    
+    
+    .cardTextP3 {
+        position: absolute;
+        color: white;
+        font-size:16px;
+        right:80px;
+        bottom: -410px;
+    }
+    
+    .cardBtn3 {
+        position: absolute;
+        right: 100px;
+        bottom: -520px;
+        background: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    
+     } 
+            
+    
+
+     /* @media (min-width: 720px) , (max-width: 800px) {
+
+        .cards{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+    
+        
+        .card {
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            gap: 10px;
+             position: relative;
+    
+             .cardBtn1 {
+                position: absolute;
+                left: 80px;
+                bottom: 70px;
+                font-size: 10px;
+                background: red;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 150px;
+                height: auto;
+            }
+    
+            .cardBtn2 {
+                position: absolute;
+                left: 390px;
+                bottom: 70px;
+                background: red;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 150px;
+                height: auto;
+                font-size: 10px;
+            }
+    
+            .cardBtn3 {
+                position: absolute;
+                right: 90px;
+                bottom: 70px;
+                width: 152px;
+                font-size: 11px;
+                height: auto;
+                background: red;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            
+            
+        }
+        
+        
+    
+        .cardImg1 {
+            padding: 10px 0px;
+            filter: brightness(60%);
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px ;
+            
+               }
+               .cardImg2 {
+                padding: 10px 0px;
+                filter: brightness(60%);
+                object-fit: cover;
+                width: 300px;
+            height: 300px;
+                border-radius: 10px;
+            
+                
+                   }
+                   .cardImg3 {
+                    padding: 10px 0px;
+                    filter: brightness(60%);
+                    object-fit: cover;
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 10px;
+            
+                    
+                       }
+    
+    
+                   .cardText1 {
+                    position: absolute;
+                    left: 60px;
+                    bottom: 200px;
+                    color: white;
+                    font-size:15px;
+                }
+                
+                
+                .cardTextP {
+                    position: absolute;
+                    color: white;
+                    font-size:13px;
+                    left: 55px;
+                    bottom: 150px;
+                }
+                
+            
+                
+                .cardText2 {
+                    position: absolute;
+                    right:385px ;
+                    bottom: 200px;
+                    color: white;
+                    font-size:13px;
+                }
+                
+                
+                .cardTextP2 {
+                    position: absolute;
+                    color: white;
+                    font-size:12px;
+                    right: 380px;
+                    bottom: 150px;
+                }
+                
+             
+                
+                
+                
+                
+                .cardText3 {
+                    right: 110px;
+                    bottom: 195px;
+                    position: absolute;
+                    color: white;
+                    font-size:16px;
+                }
+                
+                
+                .cardTextP3 {
+                    position: absolute;
+                    color: white;
+                    font-size:9px;
+                    right:80px;
+                    bottom: 150px;
+                }
+                
+            }} */
+
+
+ @media (max-width: 1024px) {
+   .gmailBtn{
+    top:325px ;
+    left: 510px;
+   }
+        .cards{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+
+    }
+    .card {
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        gap: 10px;
+         position: relative;
+
+         .cardBtn1 {
+            position: absolute;
+            left: 40px;
+            bottom: 50px;
+            font-size: 10px;
+            background: red;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+            height: auto;
+        }
+
+        .cardBtn2 {
+            position: absolute;
+            left: 280px;
+            bottom: 50px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+            height: auto;
+            font-size: 10px;
+        }
+
+        .cardBtn3 {
+            position: absolute;
+            right: 45px;
+            bottom: 52px;
+            width: 152px;
+            font-size: 11px;
+            height: auto;
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        
+    }
+    
+    .cardImg1 {
+    padding: 10px 0px;
+    filter: brightness(60%);
+    object-fit: cover;
+    width: 260px;
+    height: 250px;
+    border-radius: 10px ;
+    
+       }
+       .cardImg2 {
+        padding: 10px 0px;
+        filter: brightness(60%);
+        object-fit: cover;
+        width: 200;
+        height: 250px;
+        border-radius: 10px;
+    
+        
+           }
+           .cardImg3 {
+            padding: 10px 0px;
+            filter: brightness(60%);
+            object-fit: cover;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+    
+            
+               }
+
+    
+
+
+               .cardText1 {
+                position: absolute;
+                left: 22px;
+                bottom: 170px;
+                color: white;
+                font-size:15px;
+            }
+            
+            
+            .cardTextP {
+                position: absolute;
+                color: white;
+                font-size:13px;
+                left: 20px;
+                bottom: 120px;
+            }
+            
+        
+            
+            .cardText2 {
+                position: absolute;
+                right:275px ;
+                bottom: 170px;
+                color: white;
+                font-size:13px;
+            }
+            
+            
+            .cardTextP2 {
+                position: absolute;
+                color: white;
+                font-size:12px;
+                right: 280px;
+                bottom: 120px;
+            }
+            
+         
+            
+            
+            
+            
+            .cardText3 {
+                right: 60px;
+                bottom: 170px;
+                position: absolute;
+                color: white;
+                font-size:16px;
+            }
+            
+            
+            .cardTextP3 {
+                position: absolute;
+                color: white;
+                font-size:10px;
+                right:25px;
+                bottom: 120px;
+            }
+            
+        
+            
+            
+            
+            
+    
+
+    
+    
+
+    
+
+
+}
+
+
+
+
+
+@media (max-width: 884px) {
+
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+     
+
+    }
+    .card {
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 5px;
+        position: relative;
+
+         .cardBtn1 {
+            position: absolute;
+            left: 60px;
+            bottom: 50px;
+            font-size: 10px;
+            background: red;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+            height: auto;
+        }
+
+        .cardBtn2 {
+            position: absolute;
+            left: 360px;
+            bottom: 50px;
+            background: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+            height: auto;
+            font-size: 10px;
+        }
+
+        .cardBtn3 {
+            position: absolute;
+            right: 70px;
+            bottom: 52px;
+            width: 152px;
+            font-size: 11px;
+            height: auto;
+            background: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        
+    }
+    
+    .cardImg1 {
+    padding: 10px 0px;
+    filter: brightness(60%);
+    object-fit: cover;
+    width:285px;
+    height: 300px;
+    border-radius: 10px ;
+    
+       }
+       .cardImg2 {
+        padding: 10px 0px;
+        filter: brightness(60%);
+        object-fit: cover;
+        width:285px;
+        height: 300px;
+        border-radius: 10px;
+    
+        
+           }
+           .cardImg3 {
+            padding: 10px 0px;
+            filter: brightness(60%);
+            object-fit: cover;
+            width:285px;
+            height: 300px;
+            border-radius: 10px;
+    
+            
+               }
+
+    
+
+
+               .cardText1 {
+                position: absolute;
+                left: 50px;
+                bottom: 190px;
+                color: white;
+                font-size:15px;
+            }
+            
+            
+            .cardTextP {
+                position: absolute;
+                color: white;
+                font-size:13px;
+                left: 46px;
+                bottom: 140px;
+            }
+            
+        
+            
+            .cardText2 {
+                position: absolute;
+                right:340px ;
+                bottom: 190px;
+                color: white;
+                font-size:14px;
+            }
+            
+            
+            .cardTextP2 {
+                position: absolute;
+                color: white;
+                font-size:12px;
+                right: 350px;
+                bottom: 135px;
+            }
+            
+         
+            
+            
+            
+            
+            .cardText3 {
+                right: 90px;
+                bottom: 190px;
+                position: absolute;
+                color: white;
+                font-size:16px;
+            }
+            
+            
+            .cardTextP3 {
+                position: absolute;
+                color: white;
+                font-size:10px;
+                right:50px;
+                bottom: 140px;
+            }
+            
+        
+            
+            
+            
+            
+    
+
+    
+    
+
+    
+
+
+}
+
+@media (max-width: 767px) {
+        
+  
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   flex-direction: column;
+}
+.card {
+    height:auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+flex-direction: column;  
+
+ 
+.cardBtn1 {
+    position: absolute;
+    left: 130px;
+    top: 600px;
+    font-size: 40px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 650px;
+    height: 100px;
+}
+
+.cardBtn2 {
+    position: absolute;
+    left: 180px;
+    top: 1500px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 550px;
+    height:100px;
+    font-size: 40px;
+}
+
+.cardBtn3 {
+    position: absolute;
+    right: 175px;
+    bottom: 252px;
+    width: 550px;
+    font-size: 35px;
+    height: 90px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+   
+}
+
+.cardImg1 {
+filter: brightness(60%);
+object-fit: cover;
+width: 900px;
+height:auto;
+border-radius: 10px;
+
+   }
+   .cardImg2 {
+    filter: brightness(60%);
+    object-fit: cover;
+    width: 900px;
+        height:auto;
+    border-radius: 10px;
+
+    
+       }
+       .cardImg3 {
+        filter: brightness(60%);
+        object-fit: cover;
+        width: 900px;
+        height:850px;
+        border-radius: 10px;
+
+        
+           }
+
+
+
+           
+           .cardText1 {
+            position: absolute;
+            left: 175px;
+            top: 300px;
+            color: white;
+            font-size:45px;
+        }
+        
+        
+        .cardTextP {
+            position: absolute;
+            color: white;
+            font-size:43px;
+            left: 125px;
+            top: 440px;
+        }
+        
+    
+        
+        .cardText2 {
+            position: absolute;
+            left: 230px;
+            top: 1200px;
+            color: white;
+            font-size:43px;
+        }
+        
+        
+        .cardTextP2 {
+            position: absolute;
+            color: white;
+            font-size:35px;
+            left: 250px;
+            top: 1350px;
+        }
+        
+     
+        
+        
+        
+        
+        .cardText3 {
+            right: 270px;
+            bottom: 610px;
+            position: absolute;
+            color: white;
+            font-size:46px;
+        }
+        
+        
+        .cardTextP3 {
+            position: absolute;
+            color: white;
+            font-size:30px;
+            right: 160px;
+            bottom: 450px;
+        }
+        
+    
+        
+
+    }

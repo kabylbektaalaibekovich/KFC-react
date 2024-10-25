@@ -1,0 +1,148 @@
+#footer{
+    width: 100%;
+    background:red;
+    
+}
+.footer{
+    width: 100%;
+}
+.text-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+        h2{
+            font-size: 17px;
+            font-weight:300;
+            color: aliceblue;
+        letter-spacing: 0.5px;
+
+        }
+        span{
+            color: black;
+        }
+}
+.text-2{
+   
+    h2{
+        color: aliceblue;
+        font-weight: 300;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+    span{
+        font-weight: 600;
+
+    }
+}
+
+.mainText{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+@media(max-width:767px){
+    #footer{
+        width: 100%;
+        background:rgb(23, 27, 142);
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    .text-1{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+     
+            h2{
+                font-size: 17px;
+                font-weight:300;
+                color: aliceblue;
+            letter-spacing: 0.5px;
+    
+            }
+            span{
+             display: none;
+            }
+    }
+    .text-2{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     
+        h2{
+            color: aliceblue;
+            font-weight: 300;
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+        span{
+            font-weight: 600;
+    
+        }
+    }
+    
+  
+    
+}
+
+@media(max-width:1024px){
+    #footer{
+        width: 100%;
+        background:rgb(40, 3, 105);
+        
+    }
+    .footer{
+        width: 100%;
+    }
+    .text-1{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+            h2{
+                font-size: 13px;
+                font-weight:300;
+                color: aliceblue;
+            letter-spacing: 0.5px;
+    
+            }
+            span{
+                font-size: 13px;
+                color: black;
+            }
+    }
+    .text-2{
+       
+        h2{
+            padding: 0px 10px;
+            color: aliceblue;
+            font-weight: 300;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        span{
+            font-size: 10px;
+            font-weight: 600;
+    
+        }
+    }
+    
+    .mainText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fimble{
+        width: 100px;
+    }
+    
+}
+
+
+

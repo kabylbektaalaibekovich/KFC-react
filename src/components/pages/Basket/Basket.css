@@ -1,0 +1,104 @@
+
+#basket {
+    margin-top: 10%; 
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+
+.basket {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.basKet {
+
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 100px;
+    width: 530px;
+    height: 190px;
+    background: white; 
+    padding: 0 5px; 
+    border-radius: 10px; 
+    border: 1px solid rgba(0, 0, 0, 0.123); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.basket-block {
+    display: flex;
+    gap: 10px;
+}
+
+.bas-img img {
+    width: 105px; 
+    margin: 20px 10px; 
+    border-radius: 5px; 
+}
+
+.sum {
+    margin: 0 10px; 
+}
+
+.bas-text {
+    margin-top: 30px; 
+}
+
+.bas-text h3 {
+    font-weight: 100; 
+    margin: 7px 0; 
+}
+
+.bas-text p {
+    width: 400px; 
+    font-size: 12.5px;
+    color: #666; 
+}
+
+.total-price {
+    display: flex; 
+    align-items: center; 
+    gap: 30px;
+}
+
+.price {
+    margin-top: 20px; 
+    padding: 0 10px; 
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.price button {
+    border: none; 
+    background: none; 
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: color 0.3s;
+}
+
+.price button:hover {
+    color: #e74c3c; 
+}
+
+
+@media(max-width:1020px){
+    #basket{
+        margin-top: 30%;
+    }
+
+}
+
+@media(max-width:767px){
+    #basket{
+        margin-top: 30%;
+    }
+
+}

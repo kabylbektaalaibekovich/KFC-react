@@ -1,0 +1,135 @@
+#review{
+    margin-top: 20vh;
+}
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        font-weight:100;
+        font-family: sans-serif;
+        color:rgba(0, 0, 0, 0.772) ;
+        padding: 50px 0;
+    }
+}
+.rew-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+    width: 910px;
+filter:saturate(250%);
+    }
+}
+.rew{
+    width: 900px;
+    height: 780px;
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+
+}
+
+.review-card{
+ display: flex;
+ align-items: center;
+justify-content: center;
+flex-direction: column;
+    p{
+        text-align: center;
+        padding: 30px;
+        font-size: 14px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.krch{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+border: 1px solid rgba(0, 0, 0, 0.119);
+width: 880px;
+height: 460px;
+ border-radius:20px 0px ;
+  border-radius: 2px;
+    h3{
+        text-align: center;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+h4{
+    color: red;
+}
+}
+
+
+.review-input{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  margin-top: 80px;
+input{
+    padding: 10px ;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid  rgba(0, 0, 0, 0.148);
+}
+}
+.input1 {
+    
+    input{
+    margin-top: 50px;
+    width: 820px;
+    height: 80px;
+    padding: 0 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.128);
+}
+h6{
+    color: red;
+    margin-left: 10px;
+}
+}
+.review-btn{
+margin-right: -700px;
+    margin-top: 40px;
+  
+   button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: rgb(218, 16, 16);
+    color: #fff;
+    border-radius: 5px;
+   font-size: 12px;
+
+   }
+
+}
+.eror{
+    display: flex;
+    gap: 180px;
+    h6{
+        color: red;
+    }
+}
+.rating{
+  h5{
+    margin-left: 10px;
+  }
+margin-right: 590px;
+margin-top: 10px;
+span{
+    color: red;
+}
+}
+
+
+@media(max-width:767px){
+    #review{
+        margin-top: 60vh;
+    }
+}
