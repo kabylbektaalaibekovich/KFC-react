@@ -6,13 +6,25 @@ import { Link } from 'react-router-dom';
 import { BsXLg } from "react-icons/bs";
 
 const Hero = () => {
-    const [isGmailVisible, setGmailVisible] = useState(false); // Состояние для управления видимостью формы подписки
+    const [isGmailVisible, setGmailVisible] = useState(false);
+
+    // Функция закрытия с анимацией
+    const closeMaingmail = () => {
+        const maingmail = document.querySelector('.Maingmail');
+        if (maingmail) {
+            maingmail.classList.add('slide-up');
+
+            // Удаление элемента после завершения анимации
+            maingmail.addEventListener('animationend', () => {
+                setGmailVisible(false); // Закрытие через обновление состояния
+            }, { once: true });
+        }
+    };
 
     return (
         <div id="hero">
             <div className="container">
                 <div className="hero">
-
                     <div className="cards">
                         <div className="card">
                             <img className='cardImg1' src="https://www.kfc.kg/admin/files/4667.jpeg" alt="" />
@@ -34,33 +46,31 @@ const Hero = () => {
                         </div>
                     </div>
 
-               
                     {isGmailVisible && (
-                        <div className="Maingmail">
-                            <div  onClick={() => setGmailVisible(false)} className="gmail" >
+                        <div   className="Maingmail">
+                            <div className="gmail">
                                 <div className="gmailBox">
-                                <h3>Подписаться на рассылку</h3>
-                                <button className='gmailBtn' onClick={() => setGmailVisible(false)}>
-                                    <BsXLg />
-                                </button>
+                                    <h3>Подписаться на рассылку</h3>
+                                    <button className='gmailBtn' onClick={closeMaingmail}>
+                                        <BsXLg />
+                                    </button>
                                 </div> 
                                 <div className="gmail-input">
-<input className='gmailInput' type="email" placeholder='Эл. почта' />
-<a href="https://www.kfc.kg/page/privacy-policy"> <h1 className='gmailH1'>Читать Политика конфиденциальности</h1> </a>
-
-<button className='siginUp'>Зарегистрироваться</button>
-</div> 
+                                    <input className='gmailInput' type="email" placeholder='Эл. почта' />
+                                    <a href="https://www.kfc.kg/page/privacy-policy">
+                                        <h1 className='gmailH1'>Читать Политика конфиденциальности</h1>
+                                    </a>
+                                    <button onClick={closeMaingmail} className='siginUp'>Зарегистрироваться</button>
+                                </div> 
                             </div>
                         </div>
                     )}
-
                 </div>
             </div>
             <Infa />
             <Footer />
         </div>
     );
-}
+};
 
 export default Hero;
- 

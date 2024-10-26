@@ -1,9 +1,10 @@
 #hero {
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #f8f8f8;
     width: 100%;
     height: auto;
     margin-top: 130px;
+   
 }
 
 
@@ -16,9 +17,9 @@
     height:auto;
     border-radius: 10px;
     display: flex;
+    align-items: center;
     justify-content:center;
     gap: 30px;
-    align-items: center;
   
 
     
@@ -145,7 +146,30 @@ border-radius: 10px;
 
 
 
+@keyframes slideDown {
+    0% {
+      transform: translateY(-100%); /* Начинает за пределами экрана сверху */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0); /* Спускается в своё место */
+      opacity: 1;
+    }
+  }
 
+  @keyframes slideUp {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+  }
+  .Maingmail.slide-up {
+    animation: slideUp 0.8s ease forwards;
+}
 
 .Maingmail {
     position: fixed;
@@ -158,8 +182,8 @@ border-radius: 10px;
     justify-content: center;
     align-items: center;
     z-index: 1000;
-  
     .gmail{
+        animation: slideDown 0.8s ease forwards;
   
         background-color: white; 
         padding: 20px;
@@ -171,8 +195,8 @@ border-radius: 10px;
 
         .gmailBtn{
 
-            bottom: 455px;
-            right: 360px;
+            bottom: 230px;
+            right: -100px;
            position:absolute;
             background: none;
             color: black;
